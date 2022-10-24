@@ -2,12 +2,16 @@
 <head>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+    :root{
+    --red: #E73D34;
+    --blue: #2A5DB0;
+    }
     body{
       margin-left: 2rem;
       margin-right: 2rem;
       font-family: 'Space Grotesk', san-sarif;
       text-align: center;
-      color: #E73D34;
+      color: var(--red);
     }
     h1 {
       font-size: 70px;
@@ -15,27 +19,22 @@
     }
     h2{
       font-size: 24px;
-      color: #2A5DB0;
+      color: var(--blue);
     }
     p{
       font-size: 18px;
       
     }
-/* ----------- OnePlus 6 ----------- */
-@media only screen
-and (min-width: 412px) 
-and (max-width: 900px) {
-      h1: 500px;
+    span{
+      color: var(--blue);
     }
-
-    
   </style>
  </head>
 <body>
+  <p> Tmj <span> Thabethe </span></p>
   <img src="https://mmminimal.com/wp-content/uploads/2016/04/hello-world-02-848x600.png" />
-    <p> Tmj Thabethe</p>
   <br>
-  <h2> Where I Study </h2>
+  <h2> Where I <span>Study</span> </h2>
   <img src="https://careertimes.co.za/wp-content/uploads/2020/03/NMU-Online-Application-2021-1536x824.jpg" width="768" height="412" />
 </body>
 </html>
