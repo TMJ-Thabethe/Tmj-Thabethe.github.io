@@ -27,3 +27,7 @@
     span{
       color: var(--blue);
     }
+    .img-sd{
+        height: 320px;
+        width: 512px;
+}
